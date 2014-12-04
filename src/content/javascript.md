@@ -24,6 +24,13 @@ Next, open a command prompt or terminal, and install by typing:
 $ npm install spark
 ```
 
+If you receive an error like this:
+
+```shell
+$ Error: ENOENT, stat 'C:\Users\Someone\AppData\Roaming\npm
+```
+Do not panic, this just means you need to create a new folder named "npm" in that directory. Once you have done that, re-run:"$ npm install spark" and you are good to go.
+
 ### Client side
 
 #### Including SparkJS
